@@ -1,0 +1,5 @@
+- name: 测试 Secrets
+  run: |
+    echo "邮箱: ${{ secrets.QQ_EMAIL }}"
+    echo "授权码: ${{ secrets.QQ_EMAIL_PASSWORD }}"
+    echo "接收邮箱: ${{ secrets.QQ_EMAIL_TO }}"
